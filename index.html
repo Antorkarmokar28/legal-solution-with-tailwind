@@ -21,6 +21,7 @@
                 "primary-text-color": '#414040',
                 "secondary-text-color": '#707070',
                 "banner-text-color": '#E7E7E7',
+                "footer-text-color": '#CFCFCF',
               }
             }
           }
@@ -361,7 +362,7 @@
               <input type="email" placeholder="Your Email" class="input w-full border-none outline-none bg-slate-50 mb-8 p-5 text-base text-secondary-text-color font-normal" />
               <!-- md -->
               <input type="text" placeholder="Subject" class="input w-full border-none outline-none bg-slate-50 mb-8 p-5 text-base text-secondary-text-color font-normal" />
-              <textarea class="block h-28 input border-none outline-none bg-slate-50 mb-8 p-5 text-base text-secondary-text-color font-normal" name="" id="" cols="85" rows="20" placeholder="Your Massage"></textarea>
+              <textarea class="h-28 w-full input border-none outline-none bg-slate-50 mb-8 p-5 text-base text-secondary-text-color font-normal" name="" id="" cols="34" rows="20" placeholder="Your Massage"></textarea>
               <!-- lg -->
               <input class="w-full bg-btn-primary-color text-white p-5 rounded-lg text-xl font-semibold" type="submit" value="Send Message">
             </div>
@@ -373,8 +374,46 @@
     </main>
     <!-- ====== main end ====== -->
     <!-- ====== footer start ====== -->
-    <footer>
-
+    <footer class="bg-gray-950 mt-20 py-28 px-4">
+      <div class="container mx-auto">
+        <!-- ====== footer wrapper ====== -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-15">
+          <!-- ====== footer logo inner ====== -->
+          <div class="">
+            <img src="assets/images/logo.png" alt="">
+            <p class="text-footer-text-color text-base font-normal space-y-6 mt-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          </div>
+          <!-- ====== footer usefull link inner ====== -->
+          <div>
+            <h3 class="text-white text-2xl font-extrabold mb-10" href="">Usefull Link</h3>
+            <ul>
+              <li class="mb-2"><a class="text-footer-text-color text-base font-normal" href="">Homes</a></li>
+              <li class="mb-2"><a class="text-footer-text-color text-base font-normal" href="">About Us</a></li>
+              <li class="mb-2"><a class="text-footer-text-color text-base font-normal" href="">Cases</a></li>
+              <li class="mb-2"><a class="text-footer-text-color text-base font-normal" href="">Blog</a></li>
+              <li class="mb-2"><a class="text-footer-text-color text-base font-normal" href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- ====== footer contact now inner ====== -->
+          <div>
+            <h3 class="text-white text-2xl font-extrabold mb-10" href="">Contact Now</h3>
+            <ul>
+              <li class="mb-4"><a class="text-footer-text-color text-base font-normal" href="">555 4th 5t NW, Washington<br>DC 20530, United States</a></li>
+              <li class="mb-4"><a class="text-footer-text-color text-base font-normal" href="">&plus;88 01750 000 000<br>&plus;88 01750 000 000</a></li>
+              <li class="mb-4"><a class="text-footer-text-color text-base font-normal" href="">info@gmail.com<br>info@gmail.com</a></li>
+            </ul>
+          </div>
+          <!-- ====== footer subscribe inner ====== -->
+          <div>
+            <h3 class="text-white text-2xl font-extrabold mb-10" href="">Subscribe</h3>
+            <p class="w-56 text-base text-footer-text-color font-normal space-y-6 mb-6">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            <div class="join">
+              <input class="bg-white rounded-l-lg px-4 border-none outline-none text-base font-normal" type="email" placeholder="Enter Email" class="input input-bordered join-item" /> 
+              <button class="btn border-none bg-btn-primary-color join-item hover:text-primary-text-color text-footer-text-color"><i class="fa-regular fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- ====== footer end ====== -->
 </body>
